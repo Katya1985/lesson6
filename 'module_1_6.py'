@@ -1,0 +1,13 @@
+my_dict = {'Саша' : 2007, 'Миша' : 2014}
+print (my_dict)
+print (my_dict ['Саша'])
+print (my_dict.get('Даша'))
+my_dict.update({'Юля': 2019, 'Женя': 2005})
+print (my_dict.get ('Миша'))
+del my_dict ['Миша']
+print (my_dict)
+my_set = {15, 19, 24, 6, 15, 24, True, 'Солнце', 'Облако', 'Облако'}
+print (my_set)
+my_set.update({ 23, 11})
+my_set .discard (15)
+print (my_set)
